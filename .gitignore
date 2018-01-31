@@ -107,6 +107,4 @@ venv.bak/
 
 .gitignore
 .idea/
-Project/
-manage.py
-templates/
+
