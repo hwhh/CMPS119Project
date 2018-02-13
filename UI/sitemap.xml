@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.com/index.html</loc>
-    <lastmod>2018-02-05</lastmod>
+    <loc>http://sunwork.com/index.html</loc>
+    <lastmod>2018-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://example.com/images/logo.png</image:loc>
+      <image:loc>http://sunwork.com/images/logo.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://example.com/images/red-website.jpg</image:loc>
+      <image:loc>http://sunwork.com/images/001.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sunwork.com/images/rtp_install_small-crop-u1139.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
