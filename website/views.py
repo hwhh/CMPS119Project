@@ -10,3 +10,8 @@ def index(request):
 def mission(request):
 	context = {}
 	return render(request, '../templates/mission.html', context)
+
+#volunteers route
+def volunteers(request):
+	context = {}
+	return render(request, '../templates/volunteers.html', context)
