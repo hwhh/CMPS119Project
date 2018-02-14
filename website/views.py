@@ -1,6 +1,12 @@
 from django.shortcuts import render
 
-# Create your views here.
+# index route
 def index(request):
     context = {}
     return render(request, '../templates/index.html', context)
+
+
+#mission route
+def mission(request):
+	context = {}
+	return render(request, '../templates/mission.html', context)
