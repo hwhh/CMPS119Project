@@ -15,3 +15,8 @@ def mission(request):
 def volunteers(request):
 	context = {}
 	return render(request, '../templates/volunteers.html', context)
+
+#systems route
+def systems(request):
+	context = {}
+	return render(request, '../templates/systems.html', context)
