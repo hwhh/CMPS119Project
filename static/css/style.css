@@ -10,6 +10,22 @@
 * 	Template Style 
 *
 * ======================================================= */
+#wrap-rightcol {
+width: 566px;
+min-height: 330px;
+float: right;
+
+margin: 0;
+padding: 5px;
+padding-left: 30px;
+padding-right: 15px;
+
+border-left-style: solid;
+border-left-color: #004875;
+border-left-width: 3px;
+
+text-align: justify;
+}
 body {
   font-family: "Oxygen", sans-serif;
   font-weight: 300;
