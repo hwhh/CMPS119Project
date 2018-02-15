@@ -50,3 +50,8 @@ def news(request):
 def newsletter(request):
 	context = {}
 	return render(request, '../templates/newsletter.html', context)
+
+#system_photo route
+def system_photo(request):
+	context = {}
+	return render(request, '../templates/system_photo.html', context)
