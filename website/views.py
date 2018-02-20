@@ -55,3 +55,35 @@ def newsletter(request):
 def system_photo(request):
 	context = {}
 	return render(request, '../templates/system_photo.html', context)
+
+#about system route
+def about(request):
+	context = {}
+	return render(request, '../templates/about.html', context)
+
+
+#request site survey route
+def request_site_survey(request):
+	context = {}
+	return render(request, '../templates/request_site_survey.html', context)
+
+#get started route
+def getting_started(request):
+	context = {}
+	return render(request, '../templates/getting_started.html', context)
+
+#documents route
+def documents(request):
+	context = {}
+	return render(request, '../templates/documents.html', context)
+
+#team route
+def team(request):
+	context = {}
+	return render(request, '../templates/team.html', context)
+
+
+#team directors route
+def directors(request):
+	context = {}
+	return render(request, '../templates/directors.html', context)
