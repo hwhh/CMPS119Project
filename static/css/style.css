@@ -490,13 +490,30 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fafafa;
 }
 
+.padded-content{
+  border-bottom: 3pt inset rgba(86, 86, 86, .4666666666666667);
+}
+
+.team-img-right{
+  margin: 0 0 12px 12px;
+  width: 150px;
+  float: right;
+}
+
+.team-img-left{
+  margin: 0 12px 12px 0;
+  width: 150px; 
+  float: left;
+}
+
 #fh5co-about,
 #fh5co-services,
 #fh5co-contact,
 #fh5co-work,
 #fh5co-blog,
 #fh5co-counter,
-#fh5co-footer {
+#fh5co-footer,
+.padded-content {
   padding: 6em 3em;
   clear: both;
 }
@@ -507,7 +524,8 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-work,
   #fh5co-blog,
   #fh5co-counter,
-  #fh5co-footer {
+  #fh5co-footer,
+  .padded-content {
     padding: 3em 1em;
   }
 }
