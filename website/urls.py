@@ -22,4 +22,5 @@ urlpatterns = [
     path('index/directors', views.directors, name='directors'),
 
 
+    path('contact/', views.contact, name='contact'),
 ]
