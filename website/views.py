@@ -87,3 +87,9 @@ def team(request):
 def directors(request):
 	context = {}
 	return render(request, '../templates/directors.html', context)
+
+def handler404(request, exception, template_name='404.html'):
+	return render(request, '../templates/404.html', {})
+
+def handler500(request, exception, template_name='404.html'):
+	return render(request, '../templates/500.html', {})
