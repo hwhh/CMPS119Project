@@ -24,6 +24,7 @@ urlpatterns = [
     path('mission/objectives', views.objectives, name='objectives'),
     path('mission/support', views.support, name='support'),
     path('mission/philosophy', views.philosophy, name='philosophy'),
+    path('systems/cases', views.cases, name='cases'),
 
 
     path('contact/', views.contact, name='contact'),
