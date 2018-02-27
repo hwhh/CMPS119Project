@@ -18,8 +18,9 @@ urlpatterns = [
     path('request_site_survey', views.request_site_survey, name='request_site_survey'),
     path('index/getting_started', views.getting_started, name='getting_started'),
     path('index/documents', views.documents, name='documents'),
-    path('index/team', views.team, name='team'),
-    path('index/directors', views.directors, name='directors'),
+    path('team', views.team, name='team'),
+    path('volunteers/new_volunteer', views.new_volunteer, name='new_volunteer'),
+    path('systems/nonprofit', views.nonprofit, name='nonprofit'),
 
 
     path('contact/', views.contact, name='contact'),

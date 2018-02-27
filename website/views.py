@@ -65,6 +65,11 @@ def system_photo(request):
     context = {}
     return render(request, '../templates/system_photo.html', context)
 
+# non_profit route
+def nonprofit(request):
+    context = {}
+    return render(request, '../templates/nonprofit.html', context)
+
 
 # about system route
 def about(request):
@@ -96,15 +101,16 @@ def team(request):
     return render(request, '../templates/team.html', context)
 
 
-# team directors route
-def directors(request):
-    context = {}
-    return render(request, '../templates/directors.html', context)
-
-
+#contact route
 def contact(request):
     context = {}
     return render(request, '../templates/contact.html', context)
+
+
+#new volunteers route
+def new_volunteer(request):
+    context = {}
+    return render(request, '../templates/new_volunteer.html', context)
 
 
 def handler404(request, exception, template_name='404.html'):
