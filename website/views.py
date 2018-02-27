@@ -112,6 +112,11 @@ def new_volunteer(request):
     context = {}
     return render(request, '../templates/new_volunteer.html', context)
 
+#objectives route
+def objectives(request):
+    context = {}
+    return render(request, '../templates/objectives.html', context)
+
 
 def handler404(request, exception, template_name='404.html'):
 	return render(request, '../templates/404.html', {})

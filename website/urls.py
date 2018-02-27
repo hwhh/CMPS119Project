@@ -21,6 +21,7 @@ urlpatterns = [
     path('team', views.team, name='team'),
     path('volunteers/new_volunteer', views.new_volunteer, name='new_volunteer'),
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),
+    path('mission/objectives', views.objectives, name='objectives'),
 
 
     path('contact/', views.contact, name='contact'),
