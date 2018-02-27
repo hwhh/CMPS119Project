@@ -122,6 +122,11 @@ def support(request):
     context = {}
     return render(request, '../templates/support.html', context)
 
+# philosophy route
+def philosophy(request):
+    context = {}
+    return render(request, '../templates/philosophy.html', context)
+
 def handler404(request, exception, template_name='404.html'):
 	return render(request, '../templates/404.html', {})
 

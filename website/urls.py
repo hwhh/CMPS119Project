@@ -23,6 +23,7 @@ urlpatterns = [
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),
     path('mission/objectives', views.objectives, name='objectives'),
     path('mission/support', views.support, name='support'),
+    path('mission/philosophy', views.philosophy, name='philosophy'),
 
 
     path('contact/', views.contact, name='contact'),
