@@ -21,10 +21,10 @@ urlpatterns = [
     path('volunteers', views.volunteers, name='volunteers'),
     path('new_volunteers', views.new_volunteers, name='new_volunteers'),
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),
+    path('systems/cases', views.cases, name='cases'),
     path('mission/objectives', views.objectives, name='objectives'),
     path('mission/support', views.support, name='support'),
     path('mission/philosophy', views.philosophy, name='philosophy'),
-    path('systems/cases', views.cases, name='cases'),
 
 
     path('contact/', views.contact, name='contact'),
