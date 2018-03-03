@@ -108,9 +108,9 @@ def contact(request):
 
 
 #new volunteers route
-def new_volunteer(request):
+def new_volunteers(request):
     context = {}
-    return render(request, '../templates/new_volunteer.html', context)
+    return render(request, '../templates/new_volunteers.html', context)
 
 #objectives route
 def objectives(request):
