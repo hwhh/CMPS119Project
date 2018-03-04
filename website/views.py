@@ -108,10 +108,29 @@ def contact(request):
 
 
 #new volunteers route
-def new_volunteer(request):
+def new_volunteers(request):
     context = {}
-    return render(request, '../templates/new_volunteer.html', context)
+    return render(request, '../templates/new_volunteers.html', context)
 
+#objectives route
+def objectives(request):
+    context = {}
+    return render(request, '../templates/objectives.html', context)
+
+#support route
+def support(request):
+    context = {}
+    return render(request, '../templates/support.html', context)
+
+# philosophy route
+def philosophy(request):
+    context = {}
+    return render(request, '../templates/philosophy.html', context)
+
+# philosophy route
+def cases(request):
+    context = {}
+    return render(request, '../templates/cases.html', context)
 
 def handler404(request, exception, template_name='404.html'):
 	return render(request, '../templates/404.html', {})

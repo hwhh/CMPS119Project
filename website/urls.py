@@ -5,7 +5,6 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('mission', views.mission, name='mission'),
-    path('volunteers', views.volunteers, name='volunteers'),
     path('systems', views.systems, name='systems'),
     path('sunthink', views.sunthink, name='sunthink'),
     path('sunthink/sunthinkabout', views.sunthinkabout, name='sunthinkabout'),
@@ -16,11 +15,16 @@ urlpatterns = [
     path('systems/system_photo', views.system_photo, name='system_photo'),
     path('systems/about', views.about, name='about'),
     path('request_site_survey', views.request_site_survey, name='request_site_survey'),
-    path('index/getting_started', views.getting_started, name='getting_started'),
-    path('index/documents', views.documents, name='documents'),
+    path('getting_started', views.getting_started, name='getting_started'),
+    path('documents', views.documents, name='documents'),
     path('team', views.team, name='team'),
-    path('volunteers/new_volunteer', views.new_volunteer, name='new_volunteer'),
+    path('volunteers', views.volunteers, name='volunteers'),
+    path('new_volunteers', views.new_volunteers, name='new_volunteers'),
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),
+    path('systems/cases', views.cases, name='cases'),
+    path('mission/objectives', views.objectives, name='objectives'),
+    path('mission/support', views.support, name='support'),
+    path('mission/philosophy', views.philosophy, name='philosophy'),
 
 
     path('contact/', views.contact, name='contact'),
