@@ -18,6 +18,7 @@ urlpatterns = [
     path('getting_started', views.getting_started, name='getting_started'),
     path('documents', views.documents, name='documents'),
     path('team', views.team, name='team'),
+    path('map', views.sunwork_map, name='map'),
     path('volunteers', views.volunteers, name='volunteers'),
     path('new_volunteers', views.new_volunteers, name='new_volunteers'),
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),

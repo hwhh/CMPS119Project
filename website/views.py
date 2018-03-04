@@ -127,7 +127,9 @@ def philosophy(request):
     context = {}
     return render(request, '../templates/philosophy.html', context)
 
-# philosophy route
+def sunwork_map(request):
+    return render(request, '../templates/map.html')
+
 def cases(request):
     context = {}
     return render(request, '../templates/cases.html', context)
