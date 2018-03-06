@@ -112,6 +112,11 @@ def new_volunteers(request):
     context = {}
     return render(request, '../templates/new_volunteers.html', context)
 
+#new volunteers route
+def existing_volunteers(request):
+    context = {}
+    return render(request, '../templates/existing_volunteers.html', context)
+
 #objectives route
 def objectives(request):
     context = {}
