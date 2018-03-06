@@ -21,6 +21,7 @@ urlpatterns = [
     path('map', views.sunwork_map, name='map'),
     path('volunteers', views.volunteers, name='volunteers'),
     path('new_volunteers', views.new_volunteers, name='new_volunteers'),
+    path('existing_volunteers', views.existing_volunteers, name='existing_volunteers'),
     path('systems/nonprofit', views.nonprofit, name='nonprofit'),
     path('systems/cases', views.cases, name='cases'),
     path('mission/objectives', views.objectives, name='objectives'),
