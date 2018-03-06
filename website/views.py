@@ -132,12 +132,22 @@ def philosophy(request):
     context = {}
     return render(request, '../templates/philosophy.html', context)
 
+#map route
 def sunwork_map(request):
     return render(request, '../templates/map.html')
 
+#cases route
 def cases(request):
     context = {}
     return render(request, '../templates/cases.html', context)
+
+#netmetering route
+def netmetering(request):
+    return render(request, '../templates/netmetering.html')
+
+#nem2 route
+def nem2(request):
+    return render(request, '../templates/nem2.html')
 
 def handler404(request, exception, template_name='404.html'):
 	return render(request, '../templates/404.html', {})
