@@ -27,6 +27,8 @@ urlpatterns = [
     path('mission/objectives', views.objectives, name='objectives'),
     path('mission/support', views.support, name='support'),
     path('mission/philosophy', views.philosophy, name='philosophy'),
+    path('systems/netmetering', views.netmetering, name='netmetering'),
+    path('systems/nem2', views.nem2, name='nem2'),
 
 
     path('contact/', views.contact, name='contact'),
