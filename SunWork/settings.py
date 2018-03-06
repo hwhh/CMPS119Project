@@ -23,7 +23,7 @@ SECRET_KEY = 'b%4%760ib11+(v!97wv&1jpax5*)xr4!c8i30%f%kkal6%2uo)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # Debug must be FALSE for 404/500 pages to appear
-DEBUG = False
+DEBUG = True
 
 # For 404/500 pages to appear, ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = ['*']
