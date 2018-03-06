@@ -80,7 +80,7 @@ def about(request):
 # request site survey route
 def request_site_survey(request):
     context = {}
-    return render(request, '../templates/request_site_survey.html', context)
+    return render(request, '../templates/req_site_survey.html', context)
 
 
 # get started route
