@@ -619,7 +619,7 @@ figure {
 }
 
 .text_area_left {
-    width: 40%;
+    width: 0%;
     float: left;
 
 }
@@ -940,7 +940,7 @@ figure {
     display: block;
     margin-bottom: 30px;
     font-size: 18px !important;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(102, 211, 126, 0.8);
 }
 
 .blog-flex .featured-blog .desc-t h3 {
@@ -973,11 +973,9 @@ figure {
     font-weight: 600;
     font-size: 14px;
     font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    border: 1px solid red;
     padding: 10px 15px;
-    border: 1px solid white;
-    color: #fff;
+    border: 1px solid #66d37e;
+    color: #66d37e;
 }
 
 .blog-flex .blog-entry {

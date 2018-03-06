@@ -11,7 +11,7 @@ $padding-base-vertical: 14px !default;
 $brand-primary: #66D37E !default;
 $brand-secondary: #007CB9 !default;
 
-$brand-white: #fff;
+$brand-white: #66d37e;
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
@@ -854,10 +854,8 @@ h1, h2, h3, h4, h5, h6, figure {
 				font-size: 14px;
 				font-family: $font-secondary;
 				color: rgba($brand-white,1);
-				border: 1px solid red;
+				border: 1px solid #66d37e;
 				padding: 10px 15px;
-				border: 1px solid rgba($brand-white,1);
-				color: $brand-white;
 			}
 		}
 	}
